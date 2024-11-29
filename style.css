@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+main {
+    display: flex;
+    position: relative;
+}
+.left{
+    width: 756px;
+    height: 1024px;
+    background-color: #418AB4;
+    
+}
+.left-section{
+    padding-left: 73px;
+    padding-top: 186px;
+    
+}
+.empower-edu-text{
+    line-height: 48.1px;
+    margin-left: 132px;
+}
+.simplify-manage-text{
+    margin-left: 183px;
+}
+.image{
+    margin-left: 73px;
+    padding-top: 60px;
+}
+.powered-by-text{
+    padding-left: 254px;
+    padding-top: 100.4px;
+}
+.right{
+    width: 630px;
+    height: 1024px;
+    background-color: #ffffff;
+    right: 35px;
+    border-radius: 32px;
+    position: absolute;
+    left: 700px;
+}
+.login-container{
+    width: 480px;
+    height: 571px;
+    margin-top: 226px;
+    margin-left: 120px;
+}
+.texts-image2{
+    display: flex;
+    align-items: center;
+    width: 297.54px;
+    height: 81px;
+}
+.gj-text{
+    padding-left: 20px;
+}
+.welcome-text{
+    padding-top: 10px;
+}
+label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.password-field{
+    padding-top: 56px;
+}
+input{
+    width: 480px;
+    height: 56px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    padding-left: 16px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+}
+.pass-input {
+    position: relative;
+}
+.vector{
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+}
+.forgot-link{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 24px;
+}
+.btn {
+    padding-top: 56px;
+}
+.login{
+    font-family: 'Plus Jakarta Sans', sans-serif; 
+    font-weight: 600; 
+    font-size: 16px;
+    width: 480px;
+    height: 56px;
+    background-color: #2F2A42;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
